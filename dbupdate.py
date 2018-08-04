@@ -10,7 +10,7 @@ class ConnectETE:
 
     def __init__(self):
         self.host = 'some.dummy.hostname.net'
-	self.database = 'University'
+        self.database = 'University'
         self.mydb = DB(self.host, self.database)
         self.mydb.conn()
 
