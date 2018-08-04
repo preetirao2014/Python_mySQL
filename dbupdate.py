@@ -9,7 +9,9 @@ class ConnectETE:
     """Class to interact with tables studentslist and campuslist"""
 
     def __init__(self):
-        self.mydb = DB()
+        self.host = 'some.dummy.hostname.net'
+		self.database = 'University'
+        self.mydb = DB(self.host, self.database)
         self.mydb.conn()
 
     def get_data(self, sid, cid):
