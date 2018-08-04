@@ -12,4 +12,5 @@ You can pass your queries in the form of strings.
 Imports the db library and demonstrates it's use for a better understanding.
 Notice the use of the below two lines to connect to the Database:
 >self.mydb = DB(self.host, self.database)
+
 >self.mydb.conn()
